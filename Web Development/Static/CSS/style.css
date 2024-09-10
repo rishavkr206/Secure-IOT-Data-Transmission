@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 1000px;
+    overflow-x: auto;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination Styles */
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#pagination button:hover {
+    background-color: #555;
+}
+
+#page-info {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px 10px;
+    }
+
+    #pagination button {
+        padding: 8px 12px;
+        margin: 0 5px;
+    }
+}
